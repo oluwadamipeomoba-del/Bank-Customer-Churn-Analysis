@@ -1,15 +1,15 @@
 # Bank Customer Churn Analysis & Retention Strategy (Excel)
 
-## 📌 Project Overview
+## Project Overview
 This project delivers an end-to-end data analysis of 10,000 banking customers from a European bank to investigate why the bank's customer churn rate is sitting at an alarming **20.37%**. By cleaning, transforming, and visualizing the data entirely within Microsoft Excel, this project identifies critical high-risk segments and translates raw descriptive data into actionable, revenue-saving business recommendations for executive stakeholders.
 
-### 🎛️ Interactive Dashboard Preview
+### Interactive Dashboard Preview
 *Replace this text with a high-quality screenshot of your Excel dashboard once uploaded to your repository!*
 ![Excel Churn Dashboard Layout]
 
 ---
 
-## 🛠️ Data Toolkit & Analytics Techniques
+## Data Toolkit & Analytics Techniques
 * **Data Cleansing & Validation:** Utilized formulas (`COUNTIF`, `COUNTA`, `IF`, `IFS`) to audit 10,000 records for missing values, duplicates, and boundary errors.
 * **Feature Engineering:** Developed 3 derived grouping fields (`Age Group`, `Tenure Group`, `Account Balance Group`) to unlock deeper demographic segmentation.
 * **Data Modeling:** Built comprehensive Pivot Tables to cross-examine customer profiles against credit scores, balances, and activity rates.
@@ -17,7 +17,7 @@ This project delivers an end-to-end data analysis of 10,000 banking customers fr
 
 ---
 
-## 📊 Key Business Insights & Findings
+## Key Business Insights & Findings
 
 ### 1. High-Level Retention Health
 * **Overall Churn Rate:** **20.37%** (Approximately 1 in 5 customers have exited the bank).
@@ -34,7 +34,7 @@ This project delivers an end-to-end data analysis of 10,000 banking customers fr
 
 ---
 
-## 💡 Strategic Business Recommendations
+## Strategic Business Recommendations
 
 1. **Re-Engineer Inactive Customer Journeys:** Launch targeted re-engagement initiatives (personalized email marketing, fee waivers, or product education) specifically targeting the inactive segment to bridge the 12.58% churn gap.
 2. **Deploy a German Market Taskforce:** Conduct an urgent operational and competitive audit in Germany to isolate why 32.44% of customers are fleeing. Investigate localized competitor offers, app localized reviews, or regional customer service bottlenecks.
@@ -43,7 +43,7 @@ This project delivers an end-to-end data analysis of 10,000 banking customers fr
 
 ---
 
-## 📂 Repository & Workbook Structure
+## Repository & Workbook Structure
 The underlying Excel workbook is systematically structured across four primary layers:
 * `Bank_Churn`: Cleaned base dataset with engineered grouping columns.
 * `Churn Analysis`: Aggregated segment computations and baseline counts.
@@ -66,13 +66,13 @@ Bank-Customer-Churn-Analysis/
 
 ---
 
-## ⚠️ Project Limitations
+## Project Limitations
 * **Descriptive Scope:** This analysis is strictly descriptive; it uncovers strong correlations and behavioral patterns but does not establish direct mathematical causality. 
 * **Sample Size Constraints:** Micro-segments, specifically the 4-product cluster (60 customers) and the $1–$50k balance tier (75 customers), should be interpreted carefully due to limited variance. Advanced predictive modeling (Logistic Regression) is required to identify true independent churn drivers.
 
 ---
 
-## 📋 Dataset Attribution
+## Dataset Attribution
 This project uses the **Bank Customer Churn** dataset provided through the Maven Analytics Data Playground. Maven Analytics identifies the original source as Kaggle and describes the dataset as account information for 10,000 customers at a European bank.
 
 **Source:**
